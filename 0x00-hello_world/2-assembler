@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc -S -o `echo $1 | sed 's/\.c$//'`.s $1
+gcc $CFILE -S 
