@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc -c -o "${cfile%.c}.o" $cfile
+gcc -c -o "$(basename $1 .c).o" "$1"
