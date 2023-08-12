@@ -6,13 +6,10 @@
  */
 int main(void)
 {
-	int a = 0;
+	int t;
 
-	while (a < 10)
-	{
-		printf("%d", a);
-		a++;
-	}
-	printf("\n");
+	for (t = 0; t < 10 ; t++)
+		putchar(t + '0');
+	putchar('\n');
 	return (0);
 }
