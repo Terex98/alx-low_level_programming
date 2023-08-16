@@ -12,5 +12,6 @@ int _abs(int);
 int print_last_digit(int);
 void print_to_98(int n);
 void print_time_table(int n);
+void jack_bauer(void);
 
 #endif
