@@ -1,5 +1,5 @@
 #include "main.h"
-
+#include <stdio.h>
 /**
  * main - print numbers 1 - 100 followed by a new line
  *	numbers that are multiplies of 3 print Fizz
@@ -14,7 +14,7 @@ int main(void)
 {
 	int num;
 
-	for (mum = 1; num <= 100; num++)
+	for (num = 1; num <= 100; num++)
 	{
 		if (num % 3 == 0 && !(num % 5 == 0))
 			printf("Fizz");
@@ -28,6 +28,7 @@ int main(void)
 		if (num != 100)
 			printf(" ");
 		else
-			printf('\n');
+			printf("\n");
 	}
+	return (0);
 }
