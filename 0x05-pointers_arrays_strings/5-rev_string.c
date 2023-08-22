@@ -15,7 +15,7 @@ void rev_string(char *s)
 
 	/*find string length witout null char*/
 	for (l = 0; s[l] != '\0'; ++l)
-		++l;
+		l++;
 
 	/*swap the string by loop to half the string*/
 	for (i = 0; i < l / 2; i++)
